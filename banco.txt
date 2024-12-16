@@ -1,3 +1,4 @@
 port = 5432
-host name/address = SistemaDTI
+host name/address = localhost
 senhaBanco = 1234
+name = postgres
