@@ -21,6 +21,8 @@ User.init({
     },
 }, {
     sequelize,
-    modelName: 'User',
+    modelName: 'user',
+    tableName: 'user',
+    timestamps: false,
 });
 module.exports = User;
