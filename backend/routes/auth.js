@@ -15,7 +15,7 @@ router.post('/register', async (req, res) => {
 });
 
 // Rota para buscar todos os usuários
-router.get('/', async (req, res) => {
+router.get('/user', async (req, res) => {
   try {
     const users = await User.findAll();
     res.status(200).json(users);
